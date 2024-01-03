@@ -1,0 +1,10 @@
+.reviews {
+	background-color: var(--grey-400);
+	padding: 2rem;
+	min-height: 100dvh;
+	display: grid;
+	place-content: center;
+}
+.title {
+	color: var(--white);
+}
