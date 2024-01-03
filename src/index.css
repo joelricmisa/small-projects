@@ -6,6 +6,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 html {
@@ -211,9 +212,9 @@ ul {
 .loading {
 	width: 6rem;
 	height: 6rem;
-	border: 5px solid var(--grey-400);
+	border: 5px solid var(--grey-50);
 	border-radius: 50%;
-	border-top-color: var(--primary-500);
+	border-top-color: var(--grey-50);
 	animation: spinner 0.6s linear infinite;
 	margin: 0 auto;
 }
@@ -225,7 +226,7 @@ ul {
 }
 
 .title-underline {
-	background: var(--primary-500);
+	background: var(--grey-700);
 	width: 7rem;
 	height: 0.25rem;
 	margin: 0 auto;

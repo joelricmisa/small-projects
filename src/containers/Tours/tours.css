@@ -1,0 +1,13 @@
+.tours {
+	background-color: var(--grey-400);
+	padding: 2rem;
+	min-height: 100dvh;
+	display: grid;
+	place-content: center;
+}
+.tours__title {
+	color: var(--white);
+}
+.tours__btn {
+	margin: 40px;
+}
