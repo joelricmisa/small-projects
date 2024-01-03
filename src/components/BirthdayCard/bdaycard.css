@@ -1,4 +1,4 @@
-.card {
+.bday-card {
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
@@ -8,25 +8,26 @@
 	width: 100%;
 }
 
-.card__image {
+.bday-card__image {
 	width: 75px;
 	height: 75px;
 	border-radius: 100%;
+	box-shadow: var(--shadow-4);
 	object-fit: cover;
 }
 
-.card__texts {
+.bday-card__texts {
 	flex: 1;
 }
 
-.card__name {
-	font-weight: 700;
+.bday-card__name {
+	font-weight: 500;
 	margin: 0;
 	font-size: 1.3rem;
 	margin-bottom: 5px;
 }
 
-.card__age {
+.bday-card__age {
 	color: rgb(71, 71, 71);
 	margin: 0;
 	font-size: 1rem;

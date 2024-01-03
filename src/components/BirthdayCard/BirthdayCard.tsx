@@ -11,15 +11,15 @@ const BirthdayCard = (props: Person) => {
 	const { name, age, image } = props;
 
 	return (
-		<li className="card">
+		<li className="bday-card">
 			<img
-				className="card__image"
+				className="bday-card__image"
 				src={image}
 				alt={name + " profile picture"}
 			/>
-			<div className="card__texts">
-				<h3 className="card__name">{name}</h3>
-				<p className="card__age">{age} years</p>
+			<div className="bday-card__texts">
+				<h3 className="bday-card__name">{name}</h3>
+				<p className="bday-card__age">{age} years</p>
 			</div>
 		</li>
 	);

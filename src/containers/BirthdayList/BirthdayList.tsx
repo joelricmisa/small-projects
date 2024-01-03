@@ -9,10 +9,9 @@ type BdayData = Person[] | null;
 const BirthdayList = () => {
 	const [data, setData] = useState<BdayData>(birthdayData);
 	return (
-		<div className="list">
-			{/* <div className="list__bg"></div> */}
-			<h1 className="list__heading">{data && data.length} birthdays today</h1>
-			<ul className="list__content">
+		<section className="bday-list">
+			<h1 className="bday-list__heading">{data && data.length} birthdays today</h1>
+			<ul className="bday-list__content">
 				{data &&
 					data.map((person) => (
 						<BirthdayCard
@@ -23,11 +22,11 @@ const BirthdayList = () => {
 			</ul>
 			<button
 				type="button"
-				className="list__btn"
+				className="btn bday-list__btn"
 				onClick={() => setData([])}>
 				Clear All
 			</button>
-		</div>
+		</section>
 	);
 };
 export default BirthdayList;
