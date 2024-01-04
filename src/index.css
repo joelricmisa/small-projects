@@ -139,6 +139,9 @@ ul {
 	background: var(--grey-500);
 	box-shadow: var(--shadow-3);
 }
+.btn:focus {
+	outline: 1px solid var(--white);
+}
 
 .btn-block {
 	width: 100%;
