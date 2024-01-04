@@ -1,4 +1,4 @@
-import "./bdaycard.css";
+import "./bday-card.css";
 
 export type Person = {
 	id: number;

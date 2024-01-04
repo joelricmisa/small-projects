@@ -1,5 +1,5 @@
 import { MouseEventHandler, useState } from "react";
-import "./tourcard.css";
+import "./tour-card.css";
 
 export interface TourData {
 	id: string;

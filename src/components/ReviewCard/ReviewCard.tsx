@@ -1,4 +1,4 @@
-import "./reviewcard.css";
+import "./review-card.css";
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 import { reviewsData } from "../../constants/data";
 interface ReviewData {
