@@ -1,0 +1,42 @@
+.job-tab {
+	min-height: 100dvh;
+	padding: 2rem;
+	background-color: var(--grey-400);
+}
+.title {
+	color: var(--white);
+}
+
+.job-tab__content {
+	display: flex;
+	justify-content: space-between;
+
+	gap: 4rem;
+	max-width: 1100px;
+	margin: 0 auto;
+
+	margin-top: 4rem;
+}
+
+.job-tab__tabs {
+	display: flex;
+	flex-direction: column;
+}
+.job-tab__info {
+	flex: 1;
+}
+.job-tab__btn {
+	border: none;
+	outline: none;
+	background: transparent;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	color: var(--grey-700);
+	font-weight: 700;
+}
+.active-btn {
+	background: rgba(255, 255, 255, 0.1);
+	color: var(--grey-200);
+	border-left: 4px solid var(--grey-200);
+}

@@ -7,6 +7,5 @@ import item6 from "./item-6.jpeg";
 import item7 from "./item-7.jpeg";
 import item8 from "./item-8.jpeg";
 import item9 from "./item-9.jpeg";
-import item10 from "./item-10.jpeg";
 
-export { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10 };
+export { item1, item2, item3, item4, item5, item6, item7, item8, item9 };
