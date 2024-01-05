@@ -3,11 +3,13 @@ import BirthdayList from "./containers/BirthdayList";
 import JobTab from "./containers/JobTab";
 import Menu from "./containers/Menu";
 import Reviews from "./containers/Reviews";
+import Slider from "./containers/Slider";
 import Tours from "./containers/Tours";
 
 function App() {
 	return (
 		<>
+			<Slider />
 			<JobTab />
 			<Tours />
 			<Reviews />
