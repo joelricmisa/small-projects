@@ -7,13 +7,10 @@
 	box-shadow: var(--shadow-4);
 }
 
-.bday-list::before {
-	content: "";
-	position: absolute;
-	inset: 0;
-	z-index: -1;
+.bg {
 	min-height: 100dvh;
-	background-color: var(--grey-400);
+	padding: 2rem;
+	background-color: var(--grey-500);
 }
 
 .bday-list__heading {

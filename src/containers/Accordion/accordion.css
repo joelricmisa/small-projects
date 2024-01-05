@@ -1,5 +1,5 @@
 .accordion {
-	background-color: var(--grey-400);
+	background-color: var(--grey-500);
 	min-height: 100dvh;
 	display: grid;
 	place-content: center;

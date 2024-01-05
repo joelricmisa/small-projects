@@ -9,9 +9,13 @@ function App() {
 	return (
 		<>
 			<JobTab />
+			<Tours />
+			<Reviews />
+			<Menu />
+			<BirthdayList />
+			<Accordion />
 		</>
 	);
 }
 
 export default App;
-+3;
