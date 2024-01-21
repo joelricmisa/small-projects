@@ -40,3 +40,12 @@
 	color: var(--grey-200);
 	border-left: 4px solid var(--grey-200);
 }
+
+@media (max-width: 900px) {
+	.job-tab__content {
+		flex-direction: column;
+	}
+	.job-tab__btn {
+		text-align: start;
+	}
+}
