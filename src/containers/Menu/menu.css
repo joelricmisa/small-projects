@@ -1,13 +1,14 @@
 .menu {
 	background-color: var(--grey-500);
 	min-height: 100dvh;
-	padding: 2rem;
+	padding: 5rem 2rem;
 }
 .menu__content {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 3rem;
 	padding: 20px;
+	margin-top: 24px;
 }
 .title {
 	color: var(--white);
@@ -16,10 +17,18 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 	gap: 10px;
 	padding: 20px 0;
 }
 
 .btn {
 	font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+	.menu__content {
+		grid-template-columns: 1fr;
+		padding: unset;
+	}
 }

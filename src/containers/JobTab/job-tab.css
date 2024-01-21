@@ -1,6 +1,6 @@
 .job-tab {
 	min-height: 100dvh;
-	padding: 2rem;
+	padding: 5rem 1rem;
 	background-color: var(--grey-500);
 }
 .title {

@@ -20,6 +20,10 @@
 
 .bday-list__content {
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding-top: 20px;
 }
 
 .bday-list__btn {
