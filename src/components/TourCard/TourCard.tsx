@@ -25,7 +25,7 @@ const TourCard = (props: TourDataWithEvent) => {
 			/>
 			<div className="tour-card__content">
 				<h5 className="tour-card__title">{name}</h5>
-				<span className="tour-card__price">₱{price}</span>
+
 				<p className="tour-card__info">
 					{readMore ? info : `${info.substring(0, 200)} ...`}
 					<button
@@ -35,12 +35,16 @@ const TourCard = (props: TourDataWithEvent) => {
 						{readMore ? "Show Less" : "Read More"}
 					</button>
 				</p>
-				<button
-					onClick={removeTour}
-					className="btn tour-card__btn"
-					type="button">
-					Not Interested
-				</button>
+				<div className="tour-card__footer">
+					<button
+						onClick={removeTour}
+						className="btn tour-card__btn"
+						type="button">
+						Not Interested
+					</button>
+
+					<span className="tour-card__price">₱{price}</span>
+				</div>
 			</div>
 		</li>
 	);
