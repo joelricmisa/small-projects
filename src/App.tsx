@@ -5,7 +5,7 @@ import Menu from "./containers/Menu";
 import Reviews from "./containers/Reviews";
 import Slider from "./containers/Slider";
 import Tours from "./containers/Tours";
-import { createBrowserRouter, createRoutesFromElements, Route, Link, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import RootLayout from "./layout/Root";
 import RootIndex from "./containers/RootIndex";
 
