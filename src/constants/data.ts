@@ -1,4 +1,21 @@
-import { item1, item2, item3, item4, item5, item6, item7, item8, item9 } from "../assets/images";
+import {
+	item1,
+	item2,
+	item3,
+	item4,
+	item5,
+	item6,
+	item7,
+	item8,
+	item9,
+	sliderImg,
+	jobtabImg,
+	bdImg,
+	menuImg,
+	qaImg,
+	reviewsImg,
+	toursImg,
+} from "../assets/images";
 
 export const birthdayData = [
 	{
@@ -164,5 +181,43 @@ export const menuData = [
 		price: 16.99,
 		img: item9,
 		desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+	},
+];
+
+export const linksData = [
+	{
+		name: "Slider",
+		href: "slider",
+		img: sliderImg,
+	},
+	{
+		name: "JobTab",
+		href: "jobtab",
+		img: jobtabImg,
+	},
+	{
+		name: "Tours",
+		href: "tours",
+		img: toursImg,
+	},
+	{
+		name: "Reviews",
+		href: "reviews",
+		img: reviewsImg,
+	},
+	{
+		name: "Menu",
+		href: "menu",
+		img: menuImg,
+	},
+	{
+		name: "BirthdayList",
+		href: "birthdaylist",
+		img: bdImg,
+	},
+	{
+		name: "Accordion",
+		href: "accordion",
+		img: qaImg,
 	},
 ];
