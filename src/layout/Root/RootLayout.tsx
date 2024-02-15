@@ -7,7 +7,14 @@ const RootLayout = () => {
 		<section className="root-layout">
 			<header>
 				<Link to="/">
-					<h1>Small Projects</h1>
+					<h1 className="root-header">
+						<img
+							src="/logo.svg"
+							alt="logo"
+							height={"50"}
+						/>
+						<span>Small Projects</span>
+					</h1>
 				</Link>
 				<nav>
 					<ul>

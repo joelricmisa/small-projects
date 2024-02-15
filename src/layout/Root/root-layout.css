@@ -3,6 +3,11 @@
 	padding: 2rem;
 	background-color: var(--grey-100);
 }
+.root-header {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
 .root-content {
 	margin-top: 100px;
 }
